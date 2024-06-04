@@ -1,0 +1,91 @@
+.name{
+position: absolute;
+width: 157px;
+height: 16px;
+left: 172px;
+top: 52px;
+
+font-style: normal;
+font-size: 20px;
+line-height: 16px;
+font-family: 'Cera Pro';
+}
+#login{
+width: 52px;
+font-weight: 500;
+color: #3D3D3D;
+}
+#I{
+width: 5px;
+left: 236px;
+font-weight: 250;
+font-size: 18px;
+color: #3D3D3D;
+}
+#register{
+width: 78px;
+left: 251px;
+font-weight: 500;
+color: #46A358;
+}
+#enteremail{
+position: absolute;
+width: 300px;
+height: 16px;
+left: 100px;
+top: 108px;
+}
+.input{
+
+position: absolute;
+width: 300px;
+height: 40px;
+left: 100px;
+top: 138px;
+font-family: 'Cera Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+color: #A5A5A5;
+box-sizing: border-box;
+border: 1px solid #EAEAEA;
+border-radius: 5px;
+
+}
+#user{
+top: 138px;
+}
+#emailuser{
+top: 194px;
+}
+
+#passworduser{
+top: 250px;
+}
+
+#passwordconfirm{
+    top: 306px;
+}
+
+#button{
+    height: 45px;
+    top: 387px;
+    background: #46A358;
+
+    font-family: Cera Pro;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 16px;
+    color: #FFFFFF
+}
+.with{
+    position: absolute;
+    width: 300px;
+    height: 16px;
+    left: 100px;
+    top: 468px;
+}
+.goface{
+    text-decoration: none;
+}
