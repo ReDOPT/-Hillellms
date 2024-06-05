@@ -4,53 +4,54 @@
     <meta charset="UTF-8">
     <meta name="description" content="Registering">
     <title>Registering my account</title>
-    <link rel="stylesheet" href="../css/reset.css">
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wght@0,600;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles/normalize.css">
+    <link rel="stylesheet" href="/styles/reset.css">
+    <link rel="stylesheet" href="/styles/styles.css">
 </head>
 <body >
 <form>
-     <h1 class="name">Login</h1>
-     <h1 class="name" id="I">|</h1>
-     <h1 class="name" id="register">Register</h1>
-     <h6 id="enteremail">Enter your email and password to register.</h6>
-     <div>
-         <input class="input" id="user" name="text" placeholder="Username">
-     </div>
-     <br>
-     <div>
-         <input class="input" id="emailuser" type="text" name="text" placeholder="Enter your email address">
-     </div>
-     <br>
-     <div>
-         <input class="input" id="passworduser" type="text" name="text" placeholder="Password">
-     </div>
-     <br>
-     <div>
-         <input class="input" id="passwordconfirm" type="text" name="text" placeholder="Confirm Password">
-     </div>
-     <br>
-     <div>
-         <input class="input" id="button" type="submit" value="Register">
-     </div>
-     <div class="with" >
+     <div class="loginiregister">
+        <h2 class="logintext" id="login">Login</h2>
+        <h2 id="i" class="logintext">I</h2>
+        <h2 id="register" class="logintext">Register</h2>
+    </div>
+    <div class="Enteryouremail">
+        <h6 class="supporttext">Enter your email and password to register.</h6>
+    </div>
+    <div class="input">
+        <div >
+            <input name="text" placeholder="Username" class="filling">
+        </div>
+        <div >
+            <input type="text" name="text" placeholder="Enter your email address" class="filling">
+        </div>
+        <div >
+            <input type="text" name="text" placeholder="Password" class="filling">
+        </div>
+        <div >
+            <input type="text" name="text" placeholder="Confirm Password" class="filling">
+        </div>
+        <div >
+            <input type="submit" value="Register" class="buttonregister">
+            
+        </div>
+    </div>
+    <div class="with">
         <div class="title">
-            <span>
-                Or register with
+            <span class="supporttext">
+             Or register with
             </span>
         </div>
-     <div>
-         <button class="input" class="facegle" id="google">
-             <img src="/img/google 1.png" class="logo">
-             Continue with Google
-         </button>
-         <button class="input" id="facebook">
+    </div>
+    <div class="facegle">
+        <button class="filling" id="google">
+            <img src="/img/google 1.png" class="logo">
+            Continue with Google
+        </button>
+        <button class="filling"id="facebook">
              <img src="/img/facebook 1.png" class="logo">
              Continue with Facebook
-         </button>
-     </div>
+        </button>
      </div>
 </body>
 </html>
