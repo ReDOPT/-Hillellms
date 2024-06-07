@@ -1,0 +1,171 @@
+:root {
+    --font-family: "Cera Pro", sans-serif;
+  }
+:root {
+    --font-family: "Cera Pro", sans-serif;
+}
+form{
+    position: relative;
+    width: 500px;
+    height: 656px;
+}
+.loginiregister{
+    position: absolute;
+    display: inline;
+    width: 157px;
+    height: 16px;
+    top: 52px;
+    left: 172px;
+    background-color: white;
+    
+}
+.logintext{font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 80%;
+    color: #3d3d3d;
+    
+    display: inline;
+
+}
+#i{
+    font-family: var(--font-family);
+    font-weight: 250;
+    font-size: 18px;
+    line-height: 89%;
+    color: #3d3d3d;
+}
+#register{
+    color: #46a358;
+}
+.supporttext{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 123%;
+    color: #3d3d3d;
+
+}
+.Enteryouremail{
+    position: absolute;
+    width: 300px;
+    height: 16px;
+    top: 108px;
+    left: 100px;
+}
+.input{
+    position: absolute;
+    top: 138px;
+    left: 100px;
+    width: 300px;
+    
+}
+.filling{
+    width: 300px;
+    height: 40px;
+    border: 1px solid #EAEAEA;
+    border-radius: 5px;
+    margin-top: 16px;
+    background-color: #ffffff;
+}
+.filling::placeholder{
+    
+    position: absolute;
+    width: 300px;
+    height: 40px;
+    left: 14px;
+    top: 12px;
+    
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    
+    color: #A5A5A5;
+}
+.buttonregister{
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    
+    width: 300px;
+    height: 40px;
+    
+    margin-top: 41px;
+    background-color: #46A358;
+
+    font: 700 16px / 1 "Cera Pro", sans-serif;
+    color: #fff;
+}
+.with{
+    position: absolute;
+    width: 300px;
+    height: 16px;
+    left: 100px;
+    top: 480px;
+
+}
+.title {
+    overflow: hidden;
+    text-align: center;
+    width: 300px;
+    left: 100px;
+    top: 468px;
+    
+    text-align: center;
+}
+.title span {
+    display: inline-block;
+    vertical-align: middle;
+}
+.title:before,
+.title:after {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+    height: 1px;
+    background-color: #EAEAEA;
+    position: relative;
+}
+.title:before {
+    margin-left: -100%;
+    left: -14px;
+}
+.title:after {
+    margin-right: -100%;
+    right: -14px;
+}
+.facegle{
+position: absolute;
+width: 300px;
+height: 40px;
+left: 100px;
+top: 511px;
+
+color: #727272;
+background-color:white;
+
+font: 500 13px / 1.23077 "Cera Pro", sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 16px;
+text-align: center;
+
+color: #727272;
+display: inline;
+}
+#google{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+#facebook{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo{
+    margin: 5px;
+}
