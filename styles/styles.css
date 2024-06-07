@@ -8,6 +8,11 @@ form{
     position: relative;
     width: 500px;
     height: 656px;
+    margin: 0 auto;
+}
+.x{
+    width: 3.6%;
+    padding-left: 469px;
 }
 .loginiregister{
     position: absolute;
@@ -168,4 +173,8 @@ justify-content: center;
 }
 .logo{
     margin: 5px;
+}
+.Rectangle{
+    position: absolute;
+    top: 646px;
 }
