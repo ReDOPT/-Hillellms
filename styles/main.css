@@ -106,11 +106,4 @@ img{
 }
 .right-col{
     width: 42.25%;
-    min-height: 100px;
-}
-.img1{
-    background: url(../img/01\ 2.png);
-    background-repeat: no-repeat;
-    background-position: left 55px bottom 17px;
-}
-
+    min-height: 100px;}
