@@ -1,12 +1,38 @@
+
+@font-face {
+    font-family: "cerapro-black";
+    src: url(../font/CeraPro-Black.ttf);
+}
+@font-face {
+    font-family: "cerapro-bold";
+    src: url(../font/CeraPro-Bold.ttf);
+}
+@font-face {
+    font-family: "cerapro-light";
+    src: url(../font/CeraPro-Light.ttf);
+}
+@font-face {
+    font-family: "cerapro-medium";
+    src: url(../font/CeraPro-Medium.ttf);
+}
+@font-face {
+    font-family: "cerapro-regular";
+    src: url(../font/CeraPro-Regular.ttf);
+}
+@font-face {
+    font-family: "hangedletters";
+    src: url(../font/HangedLetters.ttf);
+}
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    
+
     border-style: none;
 
 }
+
 :root {
     --font-family: "Cera Pro", sans-serif;
   }
@@ -106,4 +132,97 @@ img{
 }
 .right-col{
     width: 42.25%;
-    min-height: 100px;}
+    min-height: 100px;
+}
+.Categories{
+    width: 25.83%;
+}
+.Categories>div{
+    padding: 20px;
+}
+.Categories>h6{
+    padding: 18px 0px 7px 14px;
+    font: 700 18px / 0.88889 "cerapro-bold", sans-serif;
+    color: #3d3d3d;
+}
+.Categories>div>a{
+    display:block;
+    font: 400 15px / 2.66667 "cerapro-medium", sans-serif;
+    color: #3d3d3d;
+}
+.Categories>div>a:first-child{
+    font: 700 15px / 2.66667 "Cera Pro", sans-serif;
+    color: #46a358;
+}
+.productlist{
+    width: 74.17%;
+    padding-left: 50px;
+    display: inline;
+}
+.referencepoint{
+    display: flex;
+}
+.referencepoint>div>a,img{
+    display: inline;
+}
+.point>a{
+    font: 400 15px / 1.06667 "cerapro-medium", sans-serif;
+    color: #3d3d3d;
+    padding-left: 40px;
+}
+.point>a:first-child{
+    font: 700 15px / 1.06667 "cerapro-bold", sans-serif;
+    color: #46a358;
+    text-decoration:underline 2px;
+    text-underline-offset: 7px;
+}
+.shortby{
+    width: 30.75%;
+    margin-left: auto;
+}
+.shortby>form>label,select{
+    vertical-align: 7px;
+    font: 400 15px / 1.06667 "cerapro-medium", sans-serif;
+    color: #3d3d3d;
+    border: none;
+    outline: none;
+}
+.product{
+    margin-left: 2.2%;
+    margin-left: 0px;
+    display: inline-block;
+    width: 30%;
+}
+.product>div{
+    width: 96%;
+}
+.product>div>p{
+    font: 400 16px / 1 "cerapro-medium", sans-serif;
+    color: #3d3d3d;
+}
+.product>div>p:last-child{
+    font: 700 18px / 0.88889 "cerapro-bold", sans-serif;
+    color: #46a358;
+}
+.product>div{
+    padding-top: 30px;
+}
+.Categories>div>h5{
+    font: 400 65px / 1 "hangedletters", sans-serif;
+    color: #46a358;
+    padding-left: 22px;
+}
+.Categories>div>h5{
+    font: 400 65px / 1 "hangedletters", sans-serif;
+    color: #46a358;
+    text-align: center;
+    padding-left: 22px;
+}
+.Categories>div>h4{
+    font: 700 23px / 0.69565 "cerapro-bold", sans-serif;
+    text-align: center;
+    color: #3d3d3d;
+}
+.Categories>div:last-child{
+    padding-top: 377px;
+}
