@@ -154,10 +154,17 @@ img{
     font: 700 15px / 2.66667 "Cera Pro", sans-serif;
     color: #46a358;
 }
+.sale{
+    position: absolute;
+    width: 25.6%;
+    padding-top: 50%;
+    left: 40px;
+    
+}
 .productlist{
+    position: relative;
     width: 74.17%;
-    padding-left: 50px;
-    display: inline;
+    margin-top: 50px;
 }
 .referencepoint{
     display: flex;
@@ -188,12 +195,18 @@ img{
     outline: none;
 }
 .product{
-    margin-left: 2.2%;
+    padding-left: 3.3%;
     margin-left: 0px;
     display: inline-block;
-    width: 30%;
+    width: 30.71%;
 }
-.product>div{
+.product:nth-child(3n-2){
+    padding-left: 0px;
+}
+.product:nth-child(n+4){
+    padding-top: 70px;
+}
+.product>div>img{
     width: 96%;
 }
 .product>div>p{
@@ -224,5 +237,23 @@ img{
     color: #3d3d3d;
 }
 .Categories>div:last-child{
+    display: inline;
     padding-top: 377px;
+}
+.page{
+    width: 23%;
+    display: inline-block;
+    margin-left: auto;
+    margin-top:90px ;
+}
+.page>a{
+    padding: 5%;
+    font: 700 18px / 0.88889 "cerapro-medium", sans-serif;
+}
+.page>a.active{
+    color: #fff;
+    width: 16.27%;
+    margin-left:2px;
+    background: #46a358;
+    border-radius: 4px;
 }
