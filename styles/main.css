@@ -341,10 +341,11 @@ header>div{
     color: #46a358;
 }
 .ourblogposts>div>a{
+    width: 33.2089%;
     font: 500 14px / 1.14286 "cerapro-bold", sans-serif;
 }
 .ourblogposts>div>a>img{
-    width: 4.5%;
+    width: 12.5%;
 }
 .ourblogposts>div>a:hover{
     color: #46a358;
