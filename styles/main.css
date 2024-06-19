@@ -43,9 +43,12 @@ img{
     margin: 0 auto;
     display: flex;
 }
-.logo, .menu, .buttonlogin{
-    display: inline;
-    padding-top: 30px;
+header{
+    padding-top:30px ;
+}
+header>div{
+    justify-content: space-between;
+    align-items: center;
 }
 .logo{
     width: 12.5%;
@@ -59,9 +62,7 @@ img{
     width: 73%;
 }
 .menu{
-    padding: 38px;
     width: 30%;
-    margin: 0 auto;
 }
 .menu>a{
     font: 400 16px "Cera Pro", sans-serif;
@@ -76,7 +77,6 @@ img{
     text-underline-offset: 25px;
 }
 .buttonlogin{
-    padding-top: 30px;
     width: 8%;
 }
 .button{
@@ -94,12 +94,14 @@ img{
 .button>img{
     width: 20px;
 }
-.left-col, .right-col{
-    display: inline-block;
+.flexoption{
+    padding-top: 7px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .left-col{
     width: 57.75%;
-    padding: 68px 0px 13px 43px;
 }
 .left-col>h3{
     font: 500 14px / 1.14286 "Cera Pro", sans-serif;
@@ -136,6 +138,8 @@ img{
     width: 25.83%;
 }
 .Categories>div{
+    display: flex;
+    flex-direction: column;
     padding: 20px;
 }
 .Categories>h6{
@@ -144,7 +148,6 @@ img{
     color: #3d3d3d;
 }
 .Categories>div>a{
-    display:block;
     font: 400 15px / 2.66667 "cerapro-medium", sans-serif;
     color: #3d3d3d;
 }
@@ -166,9 +169,6 @@ img{
 }
 .referencepoint{
     display: flex;
-}
-.referencepoint>div>a,img{
-    display: inline;
 }
 .point>a{
     font: 400 15px / 1.06667 "cerapro-medium", sans-serif;
@@ -192,20 +192,18 @@ img{
     border: none;
     outline: none;
 }
+.productmenu{
+    margin-top:30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+    row-gap: 70px;
+}
 .product{
-    padding-left: 3.3%;
-    margin-left: 0px;
-    display: inline-block;
-    width: 30.71%;
-}
-.product:nth-child(3n-2){
-    padding-left: 0px;
-}
-.product:nth-child(n+4){
-    padding-top: 70px;
-}
-.product>div>img{
-    width: 96%;
+    width: 30.714%;
+    display: flex;
+    flex-direction: column;
 }
 .product>div>p{
     font: 400 16px / 1 "cerapro-medium", sans-serif;
@@ -214,9 +212,6 @@ img{
 .product>div>p:last-child{
     font: 700 18px / 0.88889 "cerapro-bold", sans-serif;
     color: #46a358;
-}
-.product>div{
-    padding-top: 30px;
 }
 .Categories>div>h5{
     font: 400 65px / 1 "hangedletters", sans-serif;
@@ -254,4 +249,92 @@ img{
     margin-left:2px;
     background: #46a358;
     border-radius: 4px;
+}
+.blogpost{
+    width: 100%;
+    display: flex;
+    padding-top: 30px ;
+    justify-content:space-between;
+}
+.blogpost>div{
+    display: flex;
+    width:48.83333%;
+    align-items: center;
+}
+.blogpost>div>img{
+    width:48.9761%;
+}
+.blogpost>div>div{
+    display: flex;
+    flex-direction: column;
+    padding-right: 30px;
+}
+.blogpost>div>div>h3{
+    font: 900 18px / 1.33333 "cerapro-black", sans-serif;
+    text-transform: uppercase;
+    color: #3d3d3d;
+    text-align: right;
+}
+.blogpost>div>div>p{
+    font: 400 14px / 1.71429 "cerapro-medium", sans-serif;
+    text-align: right;
+    color: #727272;
+}
+.blogpost>div>div>a{
+    margin-left: 53%;
+    width: 46.82274%;
+    background-color: #46a358;
+    border-radius: 6px;
+    font: 500 14px / 1.42857 "cerapro-medium", sans-serif;
+    color: #fff;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blogpost>div>div>a>img{
+    margin-left: 3px;
+    width: 10%;
+}
+.titleblog{
+    margin-top: 138px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.titleblog:last-child{
+    row-gap: px;
+}
+.ourblogposts{
+    display: flex;
+    justify-content: space-between;
+}
+.titleblog>h3{
+    font: 700 30px / 0.53333 "cerapro-bold", sans-serif;
+}
+.titleblog>p{
+    font: 400 14px / 0.53333 "cerapro-bold", sans-serif;
+}
+.ourblogposts>div{
+    display: flex;
+    flex-direction: column;
+    row-gap: 4px;
+    width: 22.33333%;
+}
+.ourblogposts>div>h3{
+    font: 700 20px / 1.3 "Cera Pro", sans-serif;
+}
+.ourblogposts>div>p{
+    font: 400 14px / 1.14286 "cerapro-regular", sans-serif;
+}
+.green{
+    font: 500 14px / 1.14286 "cerapro-medium", sans-serif;
+    color: #46a358;
+}
+.ourblogposts>div>a{
+    font: 500 14px / 1.14286 "cerapro-bold", sans-serif;
+}
+.ourblogposts>div>a>img{
+    width: 4.5%;
 }
