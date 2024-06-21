@@ -201,9 +201,50 @@ header>div{
     row-gap: 70px;
 }
 .product{
+    position: relative;
     width: 30.714%;
     display: flex;
     flex-direction: column;
+}
+.bordertop{
+    opacity: 0;
+    background-color: #46A358;
+    height: 1px;
+    transition: all 1s;
+}
+.widgets{
+    opacity: 0;
+    bottom: 30%;
+    left: 25%;
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    width: 48.449%;
+    transition: all 1s;
+}
+.off{
+    width: 31%;
+    position: absolute;
+    background-color: #46a358;
+    color: #fff;
+}
+.off>h3{
+    font: 500 16px / 1.06667 "cerapro-bold", sans-serif;
+    text-align: center;
+}
+.price{
+    position: absolute;
+    bottom: -2px;
+    left: 27%;
+    color: #CBCBCB;
+}
+.widgets>img{
+    width: 20%;
+}
+.product:hover .bordertop,
+.product:hover .widgets{
+    opacity: 1;
+    
 }
 .product>div>p{
     font: 400 16px / 1 "cerapro-medium", sans-serif;
