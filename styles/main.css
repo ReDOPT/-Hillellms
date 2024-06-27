@@ -31,6 +31,10 @@
     border-style: none;
 
 }
+li{
+    
+    list-style-type: none;
+}
 
 :root {
     --font-family: "Cera Pro", sans-serif;
@@ -62,19 +66,79 @@ header>div{
     width: 73%;
 }
 .menu{
-    width: 30%;
+    width: 30%;    
 }
-.menu>a{
-    font: 400 16px "Cera Pro", sans-serif;
+.menu>ul{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.menu>ul>li{
+    position: relative;
+    justify-content:space-between;
+}
+.menu>ul>li>ul{
+    background-color: #EDF6EE;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin-top: 26px;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s ease-in-out;
+}
+.menu>ul>li:hover > ul{
+    display: block;
+    opacity: 1;
+    visibility: visible;
+    
+}
+.menu>ul>li>ul>li{
+    padding: 9px;
+}
+.menu>ul>li>ul>li:hover{
+    background-color: #46A358;
+}
+.menu>ul>li>ul>li>a{
+    font: 400 16px "cerapro-regular", sans-serif;
     color: #3d3d3d;
     padding: 25px 25px 0px 0px;
 }
-#selected{
-    font: 700 16px "Cera Pro", sans-serif;
+.menu>ul>li>a{
+    font: 400 16px "cerapro-medium", sans-serif;
     color: #3d3d3d;
+    padding: 25px 25px 0px 0px;
+}
+.menu>ul>li>ul>li:hover>a{
+    color: white;
+}
+.menu>ul>li:hover{
     text-decoration:underline 3px;
     text-decoration-color: #46a358;
     text-underline-offset: 25px;
+}
+.menu>ul>li:hover>a{
+    font: 400 16px "cerapro-bold", sans-serif;
+}
+.menu>ul>li>ul>li>ul{
+    position: absolute;
+    right:-128%;
+    top: 0;
+    opacity: 0;
+    visibility: visible;
+    transition: 0.3s ease-in-out;
+}
+.menu>ul>li>ul>li:hover > ul{
+    opacity: 1;
+    visibility: visible;
+}
+.menu>ul>li>ul>li>ul>li{
+    background-color: #EDF6EE;
+    padding: 9px;
+}
+.menu>ul>li>ul>li>ul>li>a{
+    font: 400 16px "cerapro-regular", sans-serif;
+    color: #3d3d3d;
 }
 .buttonlogin{
     width: 8%;
