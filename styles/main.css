@@ -99,6 +99,9 @@ header>div{
 .menu>ul>li>ul>li:hover{
     background-color: #46A358;
 }
+.menu>ul>li>ul>li>ul>li:hover{
+    background-color: #46A358;
+}
 .menu>ul>li>ul>li>a{
     font: 400 16px "cerapro-regular", sans-serif;
     color: #3d3d3d;
@@ -110,6 +113,9 @@ header>div{
     padding: 25px 25px 0px 0px;
 }
 .menu>ul>li>ul>li:hover>a{
+    color: white;
+}
+.menu>ul>li>ul>li>ul>li:hover>a{
     color: white;
 }
 .menu>ul>li:hover{
