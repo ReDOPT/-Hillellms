@@ -105,6 +105,9 @@ header>div{
     
 }
 .menu>ul>li>ul>li{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
     padding: 9px;
 }
 .menu>ul>li>ul>li:hover{
@@ -138,7 +141,7 @@ header>div{
 }
 .menu>ul>li>ul>li>ul{
     position: absolute;
-    right:-128%;
+    right:-160%;
     top: 0;
     opacity: 0;
     visibility: visible;
@@ -147,6 +150,11 @@ header>div{
 .menu>ul>li>ul>li:hover > ul{
     opacity: 1;
     visibility: visible;
+}
+.menu>ul>li>ul>li:hover > svg{
+    opacity: 1;
+    visibility: visible;
+    transform: rotate(90deg);
 }
 .menu>ul>li>ul>li>ul>li{
     background-color: #EDF6EE;
