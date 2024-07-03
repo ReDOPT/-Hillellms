@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="description" content="Registering">
-    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/styles.css">
     <title>GreenShop</title>
 </head>
 <body>
@@ -63,10 +63,18 @@
                 </li>
             </ul>
         </nav>
-        <div class="buttonlogin" >
-            <a href="./user/registration.html" class="button">
-                <img src="./img/logout1.png" alt="">Login 
-            </a>
+        <div class="header_right">
+            <svg class="vector" viewBox="0 0 20 20" width="24" height="24">
+                <use href="/img/sprite.svg#vector" x="0" y="0"></use>
+            </svg>   
+            <svg class="basket" viewBox="0 0 29 24" width="29" height="24">
+                <use href="/img/sprite.svg#group1" x="0" y="0"></use>
+            </svg>   
+            <div class="buttonlogin" >
+                <a href="./user/registration.html" class="button">
+                    <img src="./img/logout1.png" alt="">Login 
+                </a>
+            </div>
         </div>
     </div>
 </header>
@@ -91,17 +99,80 @@
 </main>
 <div class="container">
     <div class="Categories">
-        <h6>Categories</h6>
+        <div>
+            <h6>Categories</h6>
+            <ul>
+                <li>
+                    <a href="#">House plants</a>
+                    <a>(33)</a>
+                </li>
+                <li>
+                    <a href="#">Potter plants</a>
+                    <a>(12)</a>
+                </li>
+                <li>
+                    <a href="#">Seeds</a>
+                    <a>(65)</a>
+                </li>
+                <li>
+                    <a href="#">Small plants</a>
+                    <a>(39)</a>
+                </li>
+                <li>
+                    <a href="#">Big plants</a>
+                    <a>(23)</a>
+                </li>
+                <li>
+                    <a href="#">Succulentss</a>
+                    <a>(17)</a>
+                </li>
+                <li>
+                    <a href="#">Trerrariums</a>
+                    <a>(19)</a>
+                </li>
+                <li>
+                    <a href="#">Gardening</a>
+                    <a>(13)</a>
+                </li>
+                <li>
+                    <a href="#">Accessories</a>
+                    <a>(18)</a>
+                </li>
+            </ul>
+        </div>
+        <h6>Price Range</h6>
+        <div class="pricerange">
             <div>
-            <a href="">House plants</a>
-            <a href="">Potter plants</a>
-            <a href="">Seeds</a>
-            <a href="">Small plants</a>
-            <a href="">Big plants</a>
-            <a href="">Succulentss</a>
-            <a href="">Trerrariums</a>
-            <a href="">Gardening</a>
-            <a href="">Accessories</a>
+                <progress id="file" max="100" value="50"></progress>
+            </div>
+            <div class="customization">
+                <div></div>
+                <div></div>
+            </div>
+            <div class="pricefilter">
+                <p>Price:</p>
+                <p>$39-$1230</p>
+            </div>
+            <div class="buttonfilter">
+                <a href="#" class="button">Filter</a>
+            </div>
+        </div>
+        <div>
+            <h6>Size</h6>
+            <ul>
+                <li>
+                    <a href="#">Small</a>
+                    <a href="#">(119)</a>
+                </li>
+                <li>
+                    <a href="#">Medium</a>
+                    <a href="#">(86)</a>
+                </li>
+                <li>
+                    <a href="#">Large</a>
+                    <a href="#">(78)</a>
+                </li>
+            </ul>
         </div>
         <div class="sale">
             <h5>Super Sale</h5>
@@ -132,9 +203,15 @@
                     <img src="./img/barberton.png" alt="">   
                 </div>
                 <div class="widgets">
-                    <img src="./img/shopping.png" alt="">
-                    <img src="./img/heart1.png" alt="">
-                    <img src="./img/frame.png" alt="">
+                    <svg class="vector" viewBox="0 0 20 20" width="24" height="28">
+                        <use href="/img/sprite.svg#vector2" x="0" y="-4"></use>
+                    </svg>              
+                    <svg class="vector" viewBox="0 0 20 20" width="24" height="24">
+                        <use href="/img/sprite.svg#vector1" x="0" y="0"></use>
+                    </svg>              
+                    <svg class="vector" viewBox="0 0 20 20" width="24" height="24">
+                        <use href="/img/sprite.svg#vector" x="0" y="0"></use>
+                    </svg>              
                 </div>                
                 <div>
                     <p>Barberton Daisy</p>
@@ -147,9 +224,15 @@
                     <img src="./img/angel.png" alt="">
                 </div>
                 <div class="widgets">
-                    <img src="./img/shopping.png" alt="">
-                    <img src="./img/heart1.png" alt="">
-                    <img src="./img/frame.png" alt="">
+                    <svg class="vector" viewBox="0 0 20 20" width="24" height="28">
+                        <use href="/img/sprite.svg#vector2" x="0" y="-4"></use>
+                    </svg>              
+                    <svg class="vector" viewBox="0 0 20 20" width="24" height="24">
+                        <use href="/img/sprite.svg#vector1" x="0" y="0"></use>
+                    </svg>              
+                    <svg class="vector" viewBox="0 0 20 20" width="24" height="24">
+                        <use href="/img/sprite.svg#vector" x="0" y="0"></use>
+                    </svg>              
                 </div>                
                 <div>
                     <p>Angel Wing Begonia</p>
@@ -162,9 +245,15 @@
                     <img src="./img/african.png" alt="">
                 </div>
                 <div class="widgets">
-                    <img src="./img/shopping.png" alt="">
-                    <img src="./img/heart1.png" alt="">
-                    <img src="./img/frame.png" alt="">
+                    <svg class="vector" viewBox="0 0 20 20" width="24" height="28">
+                        <use href="/img/sprite.svg#vector2" x="0" y="-4"></use>
+                    </svg>              
+                    <svg class="vector" viewBox="0 0 20 20" width="24" height="24">
+                        <use href="/img/sprite.svg#vector1" x="0" y="0"></use>
+                    </svg>              
+                    <svg class="vector" viewBox="0 0 20 20" width="24" height="24">
+                        <use href="/img/sprite.svg#vector" x="0" y="0"></use>
+                    </svg>              
                 </div>                
                 <div>
                     <p>African Violet</p>
@@ -181,9 +270,15 @@
                     <img src="./img/image1234.png" alt="">
                 </div>
                 <div class="widgets">
-                    <img src="./img/shopping.png" alt="">
-                    <img src="./img/heart1.png" alt="">
-                    <img src="./img/frame.png" alt="">
+                    <svg class="vector" viewBox="0 0 20 20" width="24" height="28">
+                        <use href="/img/sprite.svg#vector2" x="0" y="-4"></use>
+                    </svg>              
+                    <svg class="vector" viewBox="0 0 20 20" width="24" height="24">
+                        <use href="/img/sprite.svg#vector1" x="0" y="0"></use>
+                    </svg>              
+                    <svg class="vector" viewBox="0 0 20 20" width="24" height="24">
+                        <use href="/img/sprite.svg#vector" x="0" y="0"></use>
+                    </svg>              
                 </div>                
                 <div>
                     <p>Beach Spider Lily</p>
@@ -196,9 +291,15 @@
                     <img src="./img/image7.png" alt="">
                 </div>
                 <div class="widgets">
-                    <img src="./img/shopping.png" alt="">
-                    <img src="./img/heart1.png" alt="">
-                    <img src="./img/frame.png" alt="">
+                    <svg class="vector" viewBox="0 0 20 20" width="24" height="28">
+                        <use href="/img/sprite.svg#vector2" x="0" y="-4"></use>
+                    </svg>              
+                    <svg class="vector" viewBox="0 0 20 20" width="24" height="24">
+                        <use href="/img/sprite.svg#vector1" x="0" y="0"></use>
+                    </svg>              
+                    <svg class="vector" viewBox="0 0 20 20" width="24" height="24">
+                        <use href="/img/sprite.svg#vector" x="0" y="0"></use>
+                    </svg>              
                 </div>                
                 <div>
                     <p>Blushing Bromeliad</p>
@@ -211,9 +312,15 @@
                     <img src="./img/image8.png" alt="">
                 </div>
                 <div class="widgets">
-                    <img src="./img/shopping.png" alt="">
-                    <img src="./img/heart1.png" alt="">
-                    <img src="./img/frame.png" alt="">
+                        <svg class="vector" viewBox="0 0 20 20" width="24" height="28">
+                        <use href="/img/sprite.svg#vector2" x="0" y="-4"></use>
+                    </svg>              
+                    <svg class="vector" viewBox="0 0 20 20" width="24" height="24">
+                        <use href="/img/sprite.svg#vector1" x="0" y="0"></use>
+                    </svg>              
+                    <svg class="vector" viewBox="0 0 20 20" width="24" height="24">
+                        <use href="/img/sprite.svg#vector" x="0" y="0"></use>
+                    </svg>              
                 </div>                
                 <div>
                     <p>Aluminum Plant</p>
@@ -226,9 +333,15 @@
                     <img src="./img/image9.png" alt="">
                 </div>
                 <div class="widgets">
-                    <img src="./img/shopping.png" alt="">
-                    <img src="./img/heart1.png" alt="">
-                    <img src="./img/frame.png" alt="">
+                        <svg class="vector" viewBox="0 0 20 20" width="24" height="28">
+                        <use href="/img/sprite.svg#vector2" x="0" y="-4"></use>
+                    </svg>              
+                    <svg class="vector" viewBox="0 0 20 20" width="24" height="24">
+                        <use href="/img/sprite.svg#vector1" x="0" y="0"></use>
+                    </svg>              
+                    <svg class="vector" viewBox="0 0 20 20" width="24" height="24">
+                        <use href="/img/sprite.svg#vector" x="0" y="0"></use>
+                    </svg>              
                 </div>                
                 <div>
                     <p>Bird's Nest Fern</p>
@@ -241,9 +354,15 @@
                     <img src="./img/product-20-320x320.png" alt="">
                 </div>
                 <div class="widgets">
-                    <img src="./img/shopping.png" alt="">
-                    <img src="./img/heart1.png" alt="">
-                    <img src="./img/frame.png" alt="">
+                        <svg class="vector" viewBox="0 0 20 20" width="24" height="28">
+                        <use href="/img/sprite.svg#vector2" x="0" y="-4"></use>
+                    </svg>              
+                    <svg class="vector" viewBox="0 0 20 20" width="24" height="24">
+                        <use href="/img/sprite.svg#vector1" x="0" y="0"></use>
+                    </svg>              
+                    <svg class="vector" viewBox="0 0 20 20" width="24" height="24">
+                        <use href="/img/sprite.svg#vector" x="0" y="0"></use>
+                    </svg>              
                 </div>                
                 <div>
                     <p>Broadleaf Lady Palm</p>
@@ -256,9 +375,15 @@
                     <img src="./img/image10.png" alt="">
                 </div>
                 <div class="widgets">
-                    <img src="./img/shopping.png" alt="">
-                    <img src="./img/heart1.png" alt="">
-                    <img src="./img/frame.png" alt="">
+                        <svg class="vector" viewBox="0 0 20 20" width="24" height="28">
+                        <use href="/img/sprite.svg#vector2" x="0" y="-4"></use>
+                    </svg>              
+                    <svg class="vector" viewBox="0 0 20 20" width="24" height="24">
+                        <use href="/img/sprite.svg#vector1" x="0" y="0"></use>
+                    </svg>              
+                    <svg class="vector" viewBox="0 0 20 20" width="24" height="24">
+                        <use href="/img/sprite.svg#vector" x="0" y="0"></use>
+                    </svg>              
                 </div>                
                 <div>
                     <p>Chinese Evergreen</p>
@@ -304,7 +429,7 @@
     </div>    
 </div>
 <div class="container titleblog">
-    <div class="title">
+    <div class="titleindex">
         <h3>Our Blog Posts</h3>
         <p>We are an online plant shop offering a wide range of cheap and trendy plants.</p>
     </div>
@@ -386,53 +511,74 @@
                 <a></a>
             </div>
             <div>
-                <img src="./img/icon.svg">
+                <svg class="vector" viewBox="0 0 14 18" width="20" height="20">
+                    <use href="/img/sprite.svg#location" x="0" y="0"></use>
+                </svg> 
                 <a target="_blank" href="https://www.google.com/maps/place/Catapano+Engineering+%26+Architecture+P.C./@40.7858669,-73.4134537,17.75z/data=!4m8!3m7!1s0x89e82a525b181153:0xe1af9885bd5d1f97!8m2!3d40.7863846!4d-73.4147982!9m1!1b1!16s%2Fg%2F1w0p6nyx?entry=ttu">70 West Buckingham Ave. Farmingdale, NY 11735</a>
             </div>
             <div>
-                <img src="./img/icon1.svg">
+                <svg class="vector" viewBox="0 0 20 20" width="20" height="20">
+                    <use href="/img/sprite.svg#message" x="0" y="2"></use>
+                </svg>  
                 <a href=mailto:contact@greenshop.com>contact@greenshop.com</a>
             </div>
             <div>
-                <img src="./img/icon2.svg">
+                <svg class="vector" viewBox="0 0 20 20" width="20" height="20">
+                    <use href="/img/sprite.svg#calling" x="0" y="2"></use>
+                </svg>  
                 <a href=tel:+88019117174901″>+88 01911 717 490</a>
             </div>
         </div>
         <div class="menufooter">
-            <div>
-                <h3>My Account</h3>
-                <a>My Account</a>                
-                <a>Our stores</a>                
-                <a>Contact us</a>                
-                <a>Career</a>                
-                <a>Specials</a>                
+            <div class="Categories ">
+                <ul>
+                    <h3>My Account</h3>
+                    <li><a>My Account</a></li>              
+                    <li><a>Our stores</a></li>              
+                    <li><a>Contact us</a></li>              
+                    <li><a>Career</a></li>          
+                    <li><a>Specials</a></li>             
+                </ul>                    
             </div>
-            <div>
-                <h3>Help & Guide</h3>
-                <a>Help Center</a>
-                <a>How to Buy</a>
-                <a>Shipping & Delivery</a>
-                <a>Product Policy</a>
-                <a>How to Return</a>
-                    
+            <div class="Categories ">
+                <ul>
+                    <h3>Help & Guide</h3>
+                    <li><a>Help Center</a></li>
+                    <li><a>How to Buy</a></li>
+                    <li><a>Shipping & Delivery</a></li>
+                    <li><a>Product Policy</a></li>
+                    <li><a>How to Return</a></li>
+                </ul>    
             </div>
-            <div>
-                <h3>Categories</h3>
-                <a>House Plants</a>
-                <a>Potter Plants</a>
-                <a>Seeds </a>
-                <a>Small Plants</a>
-                <a>Accessories</a>
+            <div class="Categories ">
+                <ul>
+                    <h3>Categories</h3>
+                    <li><a>House Plants</a></li>
+                    <li><a>Potter Plants</a></li>
+                    <li><a>Seeds </a></li>
+                    <li><a>Small Plants</a></li>
+                    <li><a>Accessories</a></li>
+                </ul>    
             </div>
             <div>
                 <div>
                     <h3>Social Media</h3>
                     <div>
-                        <img src="./img/facebook.svg" alt="">
-                        <img src="./img/instagram.svg" alt="">
-                        <img src="./img/twitter.svg" alt="">
-                        <img src="./img/linkidin.svg" alt="">
-                        <img src="./img/youtube.svg" alt="">
+                        <svg class="vector" viewBox="0 0 32 32" width="30" height="30">
+                            <use href="/img/sprite.svg#facebook" x="0" y="0"></use>
+                        </svg>  
+                        <svg class="vector" viewBox="0 0 32 32" width="30" height="30">
+                            <use href="/img/sprite.svg#instagram" x="0" y="0"></use>
+                        </svg>  
+                        <svg class="vector" viewBox="0 0 32 32" width="30" height="30">
+                            <use href="/img/sprite.svg#twitter" x="0" y="0"></use>
+                        </svg>  
+                        <svg class="vector" viewBox="0 0 32 32" width="30" height="30">
+                            <use href="/img/sprite.svg#linkidin" x="0" y="0"></use>
+                        </svg>  
+                        <svg class="vector" viewBox="0 0 32 32" width="30" height="30">
+                            <use href="/img/sprite.svg#youtube" x="0" y="0"></use>
+                        </svg>  
                     </div>
                 </div>
                 <div>
