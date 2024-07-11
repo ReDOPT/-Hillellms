@@ -514,22 +514,46 @@
                 <a></a>
             </div>
             <div>
-                <svg class="vector" viewBox="0 0 14 18" width="20" height="20">
-                    <use href="./img/sprite.svg#location" x="0" y="0"></use>
-                </svg> 
-                <a target="_blank" href="https://www.google.com/maps/place/Catapano+Engineering+%26+Architecture+P.C./@40.7858669,-73.4134537,17.75z/data=!4m8!3m7!1s0x89e82a525b181153:0xe1af9885bd5d1f97!8m2!3d40.7863846!4d-73.4147982!9m1!1b1!16s%2Fg%2F1w0p6nyx?entry=ttu">70 West Buckingham Ave. Farmingdale, NY 11735</a>
+                <div>
+                    <svg class="vector" viewBox="0 0 14 18" width="20" height="20">
+                        <use href="./img/sprite.svg#location" x="0" y="0"></use>
+                    </svg> 
+                    <a target="_blank" href="https://www.google.com/maps/place/Catapano+Engineering+%26+Architecture+P.C./@40.7858669,-73.4134537,17.75z/data=!4m8!3m7!1s0x89e82a525b181153:0xe1af9885bd5d1f97!8m2!3d40.7863846!4d-73.4147982!9m1!1b1!16s%2Fg%2F1w0p6nyx?entry=ttu">70 West Buckingham Ave. Farmingdale, NY 11735</a>
+                </div>
+                <div>
+                    <label class="switch">
+                        <input type="checkbox">
+                        <span class="slider round"></span>
+                    </label>
+                </div>
             </div>
             <div>
-                <svg class="vector" viewBox="0 0 20 20" width="20" height="20">
-                    <use href="./img/sprite.svg#message" x="0" y="2"></use>
-                </svg>  
-                <a href=mailto:contact@greenshop.com>contact@greenshop.com</a>
+                <div>
+                    <svg class="vector" viewBox="0 0 20 20" width="20" height="20">
+                        <use href="./img/sprite.svg#message" x="0" y="2"></use>
+                    </svg>  
+                    <a href=mailto:contact@greenshop.com>contact@greenshop.com</a>
+                </div>
+                <div>
+                    <label class="switch">
+                        <input type="checkbox">
+                        <span class="slider round"></span>
+                    </label>
+                </div>
             </div>
             <div>
-                <svg class="vector" viewBox="0 0 20 20" width="20" height="20">
-                    <use href="./img/sprite.svg#calling" x="0" y="2"></use>
-                </svg>  
-                <a href=tel:+88019117174901″>+88 01911 717 490</a>
+                <div>
+                    <svg class="vector" viewBox="0 0 20 20" width="20" height="20">
+                        <use href="./img/sprite.svg#calling" x="0" y="2"></use>
+                    </svg>  
+                    <a href=tel:+88019117174901″>+88 01911 717 490</a>
+                </div>
+                <div>
+                    <label class="switch">
+                        <input type="checkbox">
+                        <span class="slider round"></span>
+                    </label>
+                </div>
             </div>
         </div>
         <div class="menufooter">
@@ -595,6 +619,19 @@
             <p>© 2021 GreenShop. All Rights Reserved.</p>
         </div>
     </div>
-</footer>  
+</footer>
+<div class="preloader">
+    <svg class="vector" viewBox="0 0 35 35" width="35" height="35">
+        <use href="../img/sprite.svg#preloader" x="0" y="0"></use>
+    </svg> 
+</div>
+
+<script>
+    const preloader = document.querySelector(".preloader");
+    
+    setTimeout(()=>{
+        preloader.style.display="none"
+    }, 1000)
+ </script>
 </body>
 </html>

@@ -60,6 +60,19 @@
     <div class="Rectangle">
         <img src="../img/rectangle55.png" alt="">
     </div>
+    <div class="preloader">
+        <svg class="vector" viewBox="0 0 35 35" width="35" height="35">
+            <use href="../img/sprite.svg#preloader" x="0" y="0"></use>
+        </svg> 
+    </div>
 </form>
+
+ <script>
+    const preloader = document.querySelector(".preloader");
+    
+    setTimeout(()=>{
+        preloader.style.display="none"
+    }, 1000)
+ </script>
 </body>
 </html>
