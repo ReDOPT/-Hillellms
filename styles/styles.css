@@ -123,7 +123,6 @@ header>div{
 .menu>ul>li>a{
     font: 400 16px "cerapro-medium", sans-serif;
     color: #3d3d3d;
-    padding: 25px 25px 0px 0px;
 }
 .menu>ul>li>ul>li:hover>a{
     color: white;
@@ -226,7 +225,7 @@ header>div{
     font: 400 14px / 1.71429 "Cera Pro", sans-serif;
     color: #727272;
 }
-#shopnow{
+.shopnow{
     padding-top: 44px ;
     width: 20.20%;
 }
@@ -242,7 +241,7 @@ header>div{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 25.83%;
+    width: 22.33333333333333%;
 }
 .Categories>div:nth-child(4){
   margin-top: 36px;
@@ -250,7 +249,7 @@ header>div{
 .Categories ul{
     display: flex;
     flex-direction: column;
-    padding: 30px;
+    padding: 30px 20px 30px 30px;
 }
 .Categories ul>li{
     display: flex;
@@ -264,7 +263,10 @@ header>div{
     font: 700 18px / 0.88889 "cerapro-bold", sans-serif;
     color: #3d3d3d;
 }
-
+.Categories h3{
+    font: 700 18px / 0.88889 "cerapro-bold", sans-serif;
+    color: #3d3d3d;
+}
 .Categories>div>a:first-child{
     font: 700 15px / 2.66667 "Cera Pro", sans-serif;
     color: #46a358;
@@ -274,8 +276,11 @@ header>div{
     width: 119.3548387096774%;
     margin-left:-20px;
 }
+.Categories-menu{
+    max-height: 383px ;
+}
 .pricerange{
-    margin-left: 27px;
+    margin: 27px 0px 0px 30px;
 }
 
 .pricerange progress{
@@ -290,16 +295,19 @@ header>div{
     background-color: #46A358;
     height: 4px;    
 }
+.range{
+    margin-left: 20px;
+}
 .customization{
+    margin-left: 20px;
     position: relative;
 }
 .customization>div{
     position: absolute;
     background-color: #46A358;
     border-radius: 100%;
-    width: 5.35%;
+    width: 15px;
     height: 15px;
-    max-height: 15px;
     top: -10px;
 }
 .customization>div:first-child{
@@ -422,9 +430,6 @@ header>div{
 .product>div>p:last-child{
     font: 700 18px / 0.88889 "cerapro-bold", sans-serif;
     color: #46a358;
-}
-.Categories{
-    width: 25.83333333333333%;
 }
 .Categories>div>h5{
     font: 400 65px / 1 "hangedletters", sans-serif;
@@ -573,11 +578,25 @@ header>div{
     justify-content: space-around;
 }
 .garden>div:nth-child(-n+3)>div{
+    display: flex;
+    justify-content: flex-end;
    background-image:url(../img/ellipse10.png);
    background-repeat: no-repeat;
+   background-size: 90% ;
    padding-left: 7%;
    background-position: left bottom;
    margin-bottom: 15px;
+}
+.garden>div:nth-child(2)>div{
+    background-size: 100%;
+}
+.garden>div:nth-child(1)>div{
+    background-size: 90%;
+    width: 40%;
+}
+.garden>div:nth-child(1)>div>img{
+    max-width: 50px;
+    max-height: 71px;
 }
 .garden>div:nth-child(-n+3)>h3{
     margin-bottom: 10px;
@@ -587,10 +606,7 @@ header>div{
     color: #727272;    
 }
 .garden>div:nth-child(n-3){
-width: 16.66666666%;
-}
-.garden>div:nth-child(1)>div{
-    width: 30%;
+    width: 16.66666666%;
 }
 .garden>div:nth-child(2)>div{
     width: 34%;
@@ -611,7 +627,7 @@ width: 16.66666666%;
 }
 .emailadres{
     height: 100%;
-   width: 75.98870056497175%;
+    width: 75.98870056497175%;
 }
 .join{
     font: 700 16px / 0.88889 "cerapro-bold", sans-serif;    
@@ -949,5 +965,42 @@ input:checked + .slider:before {
     }
     to {
         transform: rotate(360deg);
+    }
+    
+}
+
+@media screen and (max-width:1200px) {
+    .container{
+        width: 95%;
+    }
+    .pricerange{
+        margin: 50px 0px 0px 10px;
+    }
+    .sale{
+        width: 105.3548387096774%;
+    }
+    .garden>div:nth-child(1)>div{
+        background-size: 120%;
+        width: 31%;
+    }
+
+    .Categories h6{
+        padding: 18px 0px 7px 14px;
+        font: 700 18px / 0.88889 "cerapro-bold", sans-serif;
+        color: #3d3d3d;
+    }
+}
+@media screen and (max-width: 1020px) {
+    .shopnow {
+        padding-top: 30px ;
+        width: 30.20%;
+    }
+}
+@media (max-width: 770px) {
+    .shopnow {
+        width: 30.20%;
+    }
+    .sale{
+        width: 95.3548387096774%;
     }
 }
