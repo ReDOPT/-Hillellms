@@ -983,7 +983,6 @@ input:checked + .slider:before {
         background-size: 120%;
         width: 31%;
     }
-
     .Categories h6{
         padding: 18px 0px 7px 14px;
         font: 700 18px / 0.88889 "cerapro-bold", sans-serif;
@@ -996,7 +995,7 @@ input:checked + .slider:before {
         width: 30.20%;
     }
 }
-@media (max-width: 770px) {
+@media screen and (max-width: 770px) {
     .shopnow {
         width: 30.20%;
     }
