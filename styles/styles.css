@@ -1090,6 +1090,9 @@ input:checked + .slider:before {
         width: 15.5%;
         margin: 5px;
     }
+    .menu>ul>li:hover>a{
+        font-size: 12px;
+    }
 }
 @media screen and (max-width: 540px){
     .logo{
@@ -1293,5 +1296,8 @@ input:checked + .slider:before {
         -webkit-transform: translateX(6px);
         -ms-transform: translateX(6px);
         transform: translateX(6px);
+    }
+    .menu>ul>li:hover>a{
+        font-size: 9px;
     }
 }
