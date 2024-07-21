@@ -1301,3 +1301,55 @@ input:checked + .slider:before {
         font-size: 9px;
     }
 }
+@media screen and (max-width: 420px){
+    .pricefilter {
+        margin-top: 5px;
+    }
+    .buttonfilter {
+        margin-top: 5px;
+        width: 33.03225806451613%;
+    }
+    .Categories>div>h4 {
+        font-size: 10px;
+    }
+}
+@media screen and (max-width: 375px){
+    .Categories li>a {
+        font-size: 7px;
+    }
+    .Categories h6 {
+        font-size: 10px;
+        padding: 0px 0px 0px 12px;
+    }
+    .Categories ul {
+        padding: 10px 0px 10px 10px;
+    }
+    .Categories{
+        margin-top: 20px;
+    }
+    .productlist {
+        margin-top: 20px;
+    }
+    .page>a {
+        font-size: 7px;
+    }
+    .blogpost>div>div>a {
+        font-size: 5px;
+    }
+    .blogpost>div>div>h3 {
+        font-size: 7px;
+    }
+    .blogpost>div>div>p {
+        font-size: 5px;
+    }
+    .button>img {
+        width: 8px;
+        height: 8px;
+    }
+    .left-col>h1 {
+        font-size: 20px;
+    }
+    .left-col>h1>a {
+        font-size: 20px;
+    }
+}
