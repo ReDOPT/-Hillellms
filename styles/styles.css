@@ -434,11 +434,6 @@ header>div{
 .Categories>div>h5{
     font: 400 65px / 1 "hangedletters", sans-serif;
     color: #46a358;
-    padding-left: 22px;
-}
-.Categories>div>h5{
-    font: 400 65px / 1 "hangedletters", sans-serif;
-    color: #46a358;
     text-align: center;
     padding-left: 22px;
 }
@@ -989,10 +984,27 @@ input:checked + .slider:before {
         color: #3d3d3d;
     }
 }
-@media screen and (max-width: 1020px) {
+@media screen and (max-width: 1024px) {
     .shopnow {
         padding-top: 30px ;
         width: 30.20%;
+    }
+    .ourblogposts>div>a{
+        width: 50%;
+    }
+    .sale{
+        width: 90.993548387096774%;
+        margin-left: 0px;
+    }
+    .Categories li>a{
+        font-size: 12px;
+    }
+    .Categories>div>h5{
+        font-size: 38px;
+        padding: 0px;
+    }
+    .Categories>div>h4{
+        font-size: 27px;
     }
 }
 @media screen and (max-width: 770px) {
@@ -1000,6 +1012,46 @@ input:checked + .slider:before {
         width: 30.20%;
     }
     .sale{
-        width: 95.3548387096774%;
+        width: 90.993548387096774%;
+        margin-left: 0px;
+    }
+    .Categories>div>h5{
+        font-size: 24px ;
+    }
+    .Categories>div:nth-child(4){
+        margin-top: 0px;
+    }
+    .Categories>div>h4{
+        font-size: 20px ;
+    }
+    .Categories li>a{
+        font-size: 13px;
+    }
+    .button{
+        font-size: 14px;
+    }
+    .blogpost>div>div>a{
+        font-size: 10px;
+    }
+    a{
+        font-size: 10px;
+    }
+    .ourblogposts>div>a{
+        font-size: 12px;
+    }
+    .menu>ul>li>a{
+        font-size: 13px;
+    }
+    .left-col>h3{
+        font-size: 10px;
+    }
+    .left-col>h1{
+        font-size: 45px;
+    }
+    .left-col>h1>a{
+        font-size: 45px;
+    }
+    .left-col>p{
+        font-size: 10px;
     }
 }
