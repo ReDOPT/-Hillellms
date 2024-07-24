@@ -284,6 +284,10 @@ header>div{
 .Categories-menu{
     max-height: 383px ;
 }
+.Categories-menu>ul>li{
+    display: flex;
+    flex-direction: column;
+}
 .pricerange{
     margin: 27px 0px 0px 30px;
 }
