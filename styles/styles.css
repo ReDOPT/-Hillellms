@@ -1142,7 +1142,7 @@ input:checked + .slider:before {
         font-size: 8px;
     }
     .Categories ul{
-        padding: 20px 10px 20px 20px;
+        padding: 00px 00px 00px 00px;
     }
     .point>a{
         font-size: 9px;
@@ -1335,5 +1335,7 @@ input:checked + .slider:before {
     .menu {
         width: 40%;
     }
-        
+    .Categories-menu>ul>li>a {
+        font-size: 20px;
+    }   
 }
